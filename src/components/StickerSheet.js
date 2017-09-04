@@ -13,21 +13,7 @@ class StickerSheet extends Component {
   render() {
     return (
       <div className="sticker-sheet">
-        <Draggable
-          axis="both"
-          handle=".handle"
-          defaultPosition={{x: 0, y: 0}}
-          position={null}
-          grid={[25, 25]}
-          onStart={this.handleStart}
-          onDrag={this.handleDrag}
-          onStop={this.handleStop}>
-            <div>
-              <div className="handle">
                 <GoodDrinking />
-              </div>
-            </div>
-        </Draggable>
       </div>
     );
   }
