@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import Draggable from 'react-draggable';
 import GoodDrinking from './GoodDrinking.js';
+import GoodListening from './GoodListening.js';
+import Shark from './Shark.js';
 
 class StickerSheet extends Component {
   constructor() {
@@ -13,7 +15,9 @@ class StickerSheet extends Component {
   render() {
     return (
       <div className="sticker-sheet">
-                <GoodDrinking />
+        <GoodDrinking />
+        <GoodListening />
+        <Shark />
       </div>
     );
   }
